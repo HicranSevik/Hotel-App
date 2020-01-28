@@ -45,7 +45,7 @@ class AddHotel extends Component {
                 console.log(res);
                 console.log(res.data);
                 if (res.data) {
-                    alert("Ekleme işlemi başarılı, tebrikler");
+                    alert("Ekleme işlemi başarılı");
                     console.log('eklendi');
                     window.location.href = "/find-hotel";
                 }
